@@ -20,97 +20,86 @@
 
         <div class="pre-loader"><div></div></div>
 
-        <!-- Start Header -->
-        <nav class="navbar nav-down" data-fullwidth="true" data-menu-style="transparent" data-animation="shrink">
-                                        <!-- Styles: light, dark, transparent, transparent-to-dark | Animation: hiding, shrink -->
+       <!-- Start Header -->
+<nav class="navbar nav-down py-3" data-fullwidth="true" data-menu-style="transparent" data-animation="shrink">
+    <!-- Styles: light, dark, transparent, transparent-to-dark | Animation: hiding, shrink -->
+    <div class="container">
+
+        <div class="navbar-header">
             <div class="container">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                </button>
+                <a class="navbar-brand to-top" href="#">
+                    <img src="img/logo-light.png" class="logo-light" alt="">
+                    <img src="img/logo-dark.png" class="logo-dark" alt="">
+                </a>
+            </div>
+        </div>
 
-                <div class="navbar-header">
-                    <div class="container">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar top-bar"></span>
-                            <span class="icon-bar middle-bar"></span>
-                            <span class="icon-bar bottom-bar"></span>
-                        </button>
-                        <a class="navbar-brand to-top" href="#"><img src="img/logo-light.png" class="logo-light" alt="#"><img src="img/logo-dark.png" class="logo-dark" alt="#"></a>
-                    </div>
-                </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <div class="container">
+                
+                <ul class="nav navbar-nav menu-right w-100 align-items-center">
 
-                <div id="navbar" class="navbar-collapse collapse">
-                    <div class="container">
-                        <ul class="nav navbar-nav menu-right">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#who-we-are">About</a></li>
 
-                            <!-- Each section must have corresponding ID ( #hero -> id="hero" ) -->
-                            <li><a href="#hero">Home</a></li>
-                            <li><a href="#who-we-are">About</a></li>
-                            
-                            <li class="dropdown megamenu vos">
-                                <a class="dropdown-toggle">What We Do<i class="ion-ios-arrow-down"></i></a>
-                                <ul class="dropdown-menu fullwidth">
-                                    <li class="megamenu-content withdesc">
-                                        <div class="col-md-3 mg-col">
-                                            <ul>
-                                                <li><a href="#digital-services">Digital Services</a></li>
-                                                <li><a href="#traditional-services">Traditional Services</a></li>
-                                               
-                                            </ul>
-                                        </div>
-                                       
-                                    
-                                      
-                                    </li>
-                                </ul>
+                    <li class="dropdown megamenu vos">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            What We Do <i class="ion-ios-arrow-down"></i>
+                        </a>
+                        <ul class="dropdown-menu fullwidth">
+                            <li class="megamenu-content withdesc">
+                                <div class="row">
+                                    <div class="col-md-3 mg-col">
+                                        <ul>
+                                            <li><a href="#digital-marketing">Digital Marketing</a></li>
+                                            <li><a href="#traditional-marketing">Traditional Marketing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </li>
-                            <li><a href="#join-our-team">Join The Team</a></li>
-                            <li><a href="#contact">Get In Touch</a></li>
-
-                            
                         </ul>
+                    </li>
 
-                    </div>
-                </div>
+                    <li><a href="#join-our-team">Join The Team</a></li>
+                    <li><a href="#contact">Get In Touch</a></li>
+
+                   
+                </ul>
+
             </div>
-        </nav>
-        <!-- End Header -->
+        </div>
+    </div>
+</nav>
+<!-- End Header -->
 
-        <!-- Hero -->
-        <section id="hero" class="hero-fullscreen parallax" data-overlay-dark="7">
-            <div class="background-image">
-                <img src="img/backgrounds/bg-1.jpg" alt="#">
-            </div>
+        
+        
 
-            <div class="container">
-                <div class="row">
+   
+<!-- Hero -->
+<section id="hero" class="hero-fullscreen parallax" data-overlay-dark="7" style="display: flex; align-items: center; justify-content: center; text-align: center;">
+    <div class="background-image">
+        <img src="img/backgrounds/bg-1.jpg" alt="#">
+    </div>
 
-                    <div class="hero-content-slider mt20" data-autoplay="true" data-speed="4000">
+    <div class="container">
+        <div class="hero-content mt20">
+            <h1><strong>We think. We create. We grow.</strong></h1>
+            <p class="lead">"We think" ignites fresh ideas with strategic insight. "We create" crafts compelling visuals and stories that resonate. "We grow" ensures sustained success, empowering brands to thrive while we refine our craft to stay ahead.</p>
+            <a href="#contact" class="btn btn-lg btn-dark btn-scroll">Get in touch</a>
+        </div>
+    </div>
+</section>
+<!-- End Hero -->
 
-                        <div>
-                            <h1>We are Creative Chain<br><strong>We think. We create. We grow.</strong></h1>
-                            <p class="lead">We are digital agency that loves crafting beautiful websites with great functionality.</p>
-                            <a href="#about" class="btn btn-lg btn-dark btn-scroll">Find out more</a>
-                        </div>
 
-                        <div>
-                            <h1><strong>We Make Brands Shine</strong></h1>
-                            <p class="lead">We do innovation, creativity, effectiveness and all that with love.</p>
-                            <a href="#about" class="btn btn-lg btn-dark btn-scroll">What we do</a>
-                        </div>
 
-                        <div>
-                            <h1><strong>Best Digital Agency</strong></h1>
-                            <p class="lead">Creative Chain is honored as best agency in South Africa.</p>
-                            <a href="#about" class="btn btn-lg btn-dark btn-scroll">Made with <i class="ion-heart"></i></a>
-                        </div>
-
-                      
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- End Hero -->
         
         
 
@@ -181,10 +170,7 @@
             <li>Content Creation</li>
             <li>Content Editing and Publishing</li>
         </ul>
-        <br>
-        <p>
-            At The Creative Chain Agency, our goal is to help brands and businesses craft compelling brand stories and deliver clear, strategic messaging tailored to their target market. We work with our clients to ensure that their brand narrative is not only authentic and engaging but also positioned to deliver real value and lasting impact.
-        </p>
+      
     </div>
 </div>
 
@@ -336,7 +322,7 @@
            <!-- Quotes -->
 <section id="join-our-team" class="parallax pt100 pb90" data-overlay-dark="8">
     <div class="background-image">
-        <img src="img/backgrounds/bg-4.jpg" alt="#">
+        <img src="img/backgrounds/bg-8.jpg" alt="#">
     </div>
     <div class="container">
         <div class="row">
@@ -364,13 +350,13 @@
 
         <!-- Digital Services -->
 <!-- Digital Services -->
-<section id="digital-services" class="pt100 pb90">
+<section id="digital-marketing" class="pt100 pb90">
     <div class="container">
         
         <!-- Heading -->
         <div class="row">
             <div class="col-md-12 text-center pb20">
-                <h2><strong>Digital Services</strong></h2>
+                <h2><strong>Digital Marketing</strong></h2>
                 <p>Our digital services are designed to help brands thrive in a fast-paced, ever-evolving digital world. Whether you're aiming to build awareness, generate leads, drive sales, or strengthen brand loyalty, we provide end-to-end digital solutions tailored to your goals and your audience.</p>
                 <p>By combining strategy, creativity, and technology, we help you connect with your customers where they are — online.</p>
             </div>
@@ -479,13 +465,13 @@
         
         
         <!-- Traditional Services -->
-<section id="traditional-services" class="pt100 pb90">
+<section id="traditional-marketing" class="pt100 pb90">
     <div class="container">
 
         <!-- Heading -->
         <div class="row">
             <div class="col-md-12 text-center pb20">
-                <h2><strong>Traditional Services</strong></h2>
+                <h2><strong>Traditional Marketing</strong></h2>
                 <p>At The Creative Chain Agency, our Traditional Marketing services are designed to strategically connect your brand with its audience through time-tested channels that deliver tangible results.</p>
                 <p>We combine creative thinking with deep market insights to develop campaigns that resonate across various traditional touch points. Our offerings include:</p>
             </div>
@@ -524,25 +510,27 @@
                 </div>
             </div>
 
-            <!-- Professional Media Planning, Buying & Negotiation -->
+           <!-- Professional Media Planning, Buying & Negotiation -->
             <div class="col-md-4 col-sm-6 feature-left">
-                <i class="icon-bar-graph size-3x color"></i> <!-- Graph for media analytics/planning -->
-                <i class="icon-bar-graph back-icon"></i>
+                <i class="icon-calendar size-3x color"></i> <!-- Stats icon for media planning -->
+                <i class="icon-calendar back-icon"></i>
                 <div class="feature-left-content">
                     <h4><strong>Professional Media Planning, Buying & Negotiation</strong></h4>
                     <p>Strategic media planning backed by audience research and budget efficiency. We negotiate and secure premium ad placements across print, radio, TV, and out-of-home media.</p>
                 </div>
             </div>
 
+
             <!-- Ad Placement across Traditional & Digital Channels -->
             <div class="col-md-4 col-sm-6 feature-left">
-                <i class="icon-bullhorn size-3x color"></i> <!-- Bullhorn for ad placement -->
-                <i class="icon-bullhorn back-icon"></i>
+                <i class="icon-megaphone size-3x color"></i> <!-- Megaphone for ad placement -->
+                <i class="icon-megaphone back-icon"></i>
                 <div class="feature-left-content">
                     <h4><strong>Ad Placement across Traditional & Digital Channels</strong></h4>
                     <p>Placement strategies that ensure your message is delivered through the most effective platforms — including newspapers, magazines, billboards, radio, and complementary digital extensions.</p>
                 </div>
             </div>
+
 
             <!-- On-site Activations & Experiential Campaigns -->
             <div class="col-md-4 col-sm-6 feature-left">
@@ -589,6 +577,16 @@
                         <h2>Get Connected<br><strong>Follow Us</strong></h2>
                         <p class="lead">Get connected with us on our socials</p>
                     </div>
+                    
+                    <div class="col-md-12 details white text-center">
+                        <div class="phone-number mb10">
+                            <h1 class="bold"> 063 298 5602</h1>
+                        </div>
+                        <div class="col-lg-12">
+                           
+                            <h4>Email: <span class="color">info@creativechainagency.co.za</span></h4>
+                        </div>
+                    </div>
 
                     <div class="col-md-12">
                         <ul class="connected-icons social-icons">
@@ -611,11 +609,9 @@
                                 </a>
                             </li>
 
-                         
-                           
-
                         </ul>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -623,67 +619,46 @@
 
  
 
-        <!-- Contact Info -->
-        <section class="parallax pt110 pb70" data-overlay-dark="8">
-            <div class="background-image">
-                <img src="img/backgrounds/bg-8.jpg" alt="#">
-            </div>
-            <div class="container">
-                <div class="row">
+    
 
-                    <div class="col-md-12 details white text-center">
-                        <div class="phone-number mb10">
-                            <h1 class="bold"> 063 298 5602</h1>
-                        </div>
-                        <div class="col-lg-12">
-                           
-                            <h4>Email: <span class="color">info@creativechainagency.co.za</span></h4>
-                        </div>
+       <!-- Contact Form -->
+<section id="contact" class="pt120 pb100">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 text-center pb20">
+                <h2><strong>Get In Touch</strong></h2>
+                <p>We believe in the power of meaningful connections, exploring creative possibilities and discussing potential collaborations.</p>
+            </div>
+
+            <div class="col-md-8 col-md-offset-2 contact box-style">
+                <div id="message-info"></div>
+                <!-- Forms can be functional only on server. Upload to your server when testing. -->
+                <form method="post" class="row">
+
+                    <div class="col-xs-12 col-md-12">
+                        <input name="name" id="name" placeholder="Your Name *"/>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <input name="email" id="email" placeholder="Your Email *"/>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <input name="phone" id="phone" placeholder="Your Phone"/>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <textarea name="message" rows="9" id="message" placeholder="Your Message *"></textarea>
+                    </div>
+                    <div class="col-xs-12 col-md-12 text-center">
+                        <input type="submit" class="submit btn btn-lg btn-primary" id="submit" value="Send Message"/>
                     </div>
 
-                </div>
+                </form>
             </div>
-        </section>
-        <!-- End Contact Info -->
 
-        <!-- Contact Form -->
-        <section id="contact" class="pt120 pb100">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-12 text-center pb20">
-                        <h2><strong>Get In Touch</strong></h2>
-                        <p>We believe in the power of meaningful connections, exploring creative possibilities and discussing potential collaborations.</p>
-                    </div>
-
-                    <div class="col-md-8 col-md-offset-2 contact box-style">
-                        <div id="message-info"></div>
-                        <!-- Forms can be functional only on server. Upload to your server when testing. -->
-                        <form  method="post">
-
-                            <div class="col-sm-12">
-                                <input name="name" id="name" placeholder="Your Name *"/>
-                            </div>
-                            <div class="col-sm-6">
-                                <input name="email" id="email" placeholder="Your Email *"/>
-                            </div>
-                            <div class="col-sm-6">
-                                <input name="phone" id="phone" placeholder="Your Phone"/>
-                            </div>
-                            <div class="col-sm-12">
-                                <textarea name="message" rows="9" id="message" placeholder="Your Message *"></textarea>
-                            </div>
-                            <div class="col-md-12">
-                                <input type="submit" class="submit btn btn-lg btn-primary" id="submit" value="Send Message"/>
-                            </div>
-
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- End Contact Form -->
+        </div>
+    </div>
+</section>
+<!-- End Contact Form -->
 
       
 

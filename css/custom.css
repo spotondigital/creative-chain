@@ -1,0 +1,7 @@
+.navbar-nav > li.dropdown {
+    position: relative; /* Ensures the dropdown is anchored correctly */
+}
+.navbar-nav .dropdown-menu {
+    top: 100%;
+    left: 0;
+}
