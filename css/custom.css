@@ -31,3 +31,32 @@
     }
 }
 
+/* Scope just this section */
+#get-connected { text-align: center; }
+#get-connected .details,
+#get-connected h2,
+#get-connected h4,
+#get-connected .phone-number { margin-left: auto; margin-right: auto; }
+
+/* Social icons back in a row */
+#get-connected .social-icons { 
+  display: flex !important;
+  flex-direction: row;     /* horizontal row */
+  justify-content: center; /* centered horizontally */
+  gap: 40px;               /* spacing between icons */
+  padding: 0;
+  margin: 0 auto;
+}
+#get-connected .social-icons li {
+  list-style: none;
+  float: none !important;
+}
+#get-connected .social-icons li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center !important;
+}
+
+
+
