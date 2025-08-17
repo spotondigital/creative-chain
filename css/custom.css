@@ -6,3 +6,28 @@
     left: 0;
 }
 
+/* Logo styling */
+.navbar-brand img {
+    display: block;
+    width: 180px; /* Default logo width */
+    height: auto;
+}
+
+/* Mobile adjustments */
+@media (max-width: 991px) {
+    .navbar-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar-brand img {
+        width: 140px; /* Shrink logo on mobile */
+    }
+
+    .navbar-collapse {
+        margin-top: 10px; /* Adds spacing under the header */
+    }
+}
+

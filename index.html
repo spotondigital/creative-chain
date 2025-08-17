@@ -20,60 +20,54 @@
 
         <div class="pre-loader"><div></div></div>
 
-       <!-- Start Header -->
+<!-- Start Header -->
 <nav class="navbar nav-down py-3" data-fullwidth="true" data-menu-style="transparent" data-animation="shrink">
-    <!-- Styles: light, dark, transparent, transparent-to-dark | Animation: hiding, shrink -->
     <div class="container">
 
-        <div class="navbar-header">
-            <div class="container">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar top-bar"></span>
-                    <span class="icon-bar middle-bar"></span>
-                    <span class="icon-bar bottom-bar"></span>
-                </button>
-                <a class="navbar-brand to-top" href="#">
-    <img src="img/logo-light.svg" class="logo-light" alt="Logo" style="display:block; width:180px; height:70px;">
-   <img src="img/logo-dark.svg" class="logo-dark" alt="Logo" style="display:block; width:180px; height:70px;">
-</a>
+        <!-- Navbar Header -->
+        <div class="navbar-header d-flex justify-content-between align-items-center w-100">
+            <!-- Logo -->
+            <a class="navbar-brand to-top" href="#">
+                <img src="img/logo-light.svg" class="logo-light" alt="Logo">
+                <img src="img/logo-dark.svg" class="logo-dark" alt="Logo">
+            </a>
 
-            </div>
+            <!-- Hamburger / Mobile Toggle -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
         </div>
 
+        <!-- Navbar Menu -->
         <div id="navbar" class="navbar-collapse collapse">
-            <div class="container">
-                
-                <ul class="nav navbar-nav menu-right w-100 align-items-center">
+            <ul class="nav navbar-nav menu-right w-100 align-items-center">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#who-we-are">About</a></li>
 
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#who-we-are">About</a></li>
-
-                    <li class="dropdown megamenu vos">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            What We Do <i class="ion-ios-arrow-down"></i>
-                        </a>
-                        <ul class="dropdown-menu fullwidth">
-                            <li class="megamenu-content withdesc">
-                                <div class="row">
-                                    <div class="col-md-3 mg-col">
-                                        <ul>
-                                            <li><a href="#digital-marketing">Digital Marketing</a></li>
-                                            <li><a href="#traditional-marketing">Traditional Marketing</a></li>
-                                        </ul>
-                                    </div>
+                <li class="dropdown megamenu vos">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        What We Do <i class="ion-ios-arrow-down"></i>
+                    </a>
+                    <ul class="dropdown-menu fullwidth">
+                        <li class="megamenu-content withdesc">
+                            <div class="row">
+                                <div class="col-md-3 mg-col">
+                                    <ul>
+                                        <li><a href="#digital-marketing">Digital Marketing</a></li>
+                                        <li><a href="#traditional-marketing">Traditional Marketing</a></li>
+                                    </ul>
                                 </div>
-                            </li>
-                        </ul>
-                    </li>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
 
-                    <li><a href="#join-our-team">Join The Team</a></li>
-                    <li><a href="#contact">Get In Touch</a></li>
-
-                   
-                </ul>
-
-            </div>
+                <li><a href="#join-our-team">Join The Team</a></li>
+                <li><a href="#contact">Get In Touch</a></li>
+            </ul>
         </div>
     </div>
 </nav>
@@ -320,29 +314,7 @@
         </section>
         <!-- End Team -->
         
-           <!-- Quotes -->
-<section id="join-our-team" class="parallax pt100 pb90" data-overlay-dark="8">
-    <div class="background-image">
-        <img src="img/backgrounds/bg-8.jpg" alt="#">
-    </div>
-    <div class="container">
-        <div class="row">
 
-            <div class="col-md-12 text-center white">
-                <h2>
-                    <i class="vossen-quote color"></i>
-                        Join <strong>Our Team</strong>
-                    <i class="vossen-quote color"></i>
-                </h2>
-                <p>We are always looking for new talent and believe our team is made up on creatives who push the boundaries.<br>
-                Do you have the talent, the drive and the passion to create more? Get in touch with us send us your CV and portfolio.</p>
-                <a href="#contact" class="btn btn-lg btn-dark btn-scroll">Get in touch</a>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- End Quotes -->
 
       
        
@@ -560,6 +532,30 @@
 
 
         <!-- Callout -->
+        
+                   <!-- Quotes -->
+<section id="join-our-team" class="parallax pt100 pb90" data-overlay-dark="8">
+    <div class="background-image">
+        <img src="img/backgrounds/bg-8.jpg" alt="#">
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 text-center white">
+                <h2>
+                    <i class="vossen-quote color"></i>
+                        Join <strong>Our Team</strong>
+                    <i class="vossen-quote color"></i>
+                </h2>
+                <p>We are always looking for new talent and believe our team is made up on creatives who push the boundaries.<br>
+                Do you have the talent, the drive and the passion to create more? Get in touch with us send us your CV and portfolio.</p>
+                <a href="#contact" class="btn btn-lg btn-dark btn-scroll">Get in touch</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End Quotes -->
        
         <!-- End Callout -->
 
